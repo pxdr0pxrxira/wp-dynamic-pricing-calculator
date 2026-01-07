@@ -1,13 +1,4 @@
 <?php
-/**
- * Plugin Name: WP Orçamento Simples (Pro Design)
- * Plugin URI: https://github.com/seunome/wp-orcamento-simples
- * Description: Calculadora de orçamentos com design moderno e responsivo.
- * Version: 1.1
- * Author: O Seu Nome
- * License: GPL2
- */
-
 if ( ! defined( 'ABSPATH' ) ) { exit; }
 
 // ---------------------------------------------------------
@@ -189,4 +180,5 @@ function wpos_shortcode_calculadora() {
     <?php
     return ob_get_clean();
 }
+
 add_shortcode('calculadora_orcamento', 'wpos_shortcode_calculadora');
